@@ -63,16 +63,15 @@ public class ATM
 
         User currentUser = bank.getCurrentUser();
 
-        System.out.println("ENTER THE RECIPENT ID : ");
-        scanner.nextLine();
-        String recipientID = scanner.nextLine();
+        System.out.print("ENTER THE RECIPENT ID : ");
+        String recipientID = scanner.next();
         User recipient = bank.getUserByID(recipientID);
         if (recipient == null) 
         {
             System.out.println("INVALID RECIPENT ID !");
             return;
         }
-        System.out.println("ENTER THE AMOUNT YOU WANT TO TRANSFER : ");
+        System.out.print("ENTER THE AMOUNT YOU WANT TO TRANSFER : ");
         double amount = scanner.nextDouble();
 
         if (currentUser.transfer(amount, recipient)) 

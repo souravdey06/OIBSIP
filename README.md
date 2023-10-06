@@ -1,10 +1,3 @@
 # OIBSIP
-Oasis Infobyte Java Developement Internship's Tasks
+Welcome to Oasis Infobyte Java Developement Internship's Projects Repository. The repository contains Java Projets like "Online Examination System", "ATM Interface" and "Number Guessing Game".
 
-I have completed following tasks:
-
-Task 2 - Number Guessing Game
-
-Task 3 - ATM Interface (A console-based Application)
-
-Task 4 - Online Examination System
